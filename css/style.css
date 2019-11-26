@@ -1,13 +1,38 @@
 body{
+
+}
+.graph-bg{
   background-image: url(./../images/graph.png);
 }
 .bg-primary {
     background-color: var(--primary) !important;
 }
-.map {
-    
-    border-radius: 10px;
+.btn-primary {
+    color: #fff;
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
 }
+.btn {
+    height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.map {
+
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #bac8d6;
+}
+.selected-area {
+    background-color: #ffffff !important;
+    /* border-right: 1px solid #a4abb3ad; */
+    /* background-image: url(./../images/blue-sky.png); */
+    background-size: cover;
+    box-shadow: 1px 0px 11px #827d7dc7;
+}
+
 map area{
   cursor: pointer;
 }
@@ -28,3 +53,18 @@ map area{
 .modal-dialog-slideout .modal-content{border: 0;}
 .modal-dialog-slideout .modal-header, .modal-dialog-slideout .modal-footer {height: 69px; display: block;}
 .modal-dialog-slideout .modal-header h5 {float:left;}
+.plan-area-img {
+    border-radius: 10px;
+}
+.modal-header{
+  border-radius: 0px
+}
+.modal-header .close{
+  margin: 0px;
+    padding: 0px;
+    color: white;
+    text-shadow: none;
+    opacity: 1;
+    font-size: 36px;
+    line-height: 26px;
+}
