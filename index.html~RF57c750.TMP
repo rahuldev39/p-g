@@ -54,11 +54,11 @@
 
         <img src="./images/key_plan.png" alt="" usemap="#Map" class="img-fluid m-auto d-block map">
         <map name="Map">
-          <area shape="poly" coords="108,14,195,45,181,142,87,127" alt="60" data-toggle="modal" data-target="#map-area">
-          <area shape="poly" coords="276,108,276,135,235,135,235,156,222,157,222,214,298,214,300,175,339,173,338,109" href="#" alt="01">
-          <area shape="poly" coords="174,345,181,345,179,325,192,324,192,317,249,319,249,436,173,437" href="#" alt="16">
-          <area shape="poly" coords="220,291,299,292,301,319,220,319" href="#" alt="13">
-          <area shape="poly" coords="205,247,206,265,226,265,226,276,254,277,254,247" href="#" alt="10">
+          <area shape="poly" coords="108,14,195,45,181,142,87,127" data-toggle="modal" data-target="#map-area">
+          <area shape="poly" coords="276,108,276,135,235,135,235,156,222,157,222,214,298,214,300,175,339,173,338,109" href="#">
+          <area shape="poly" coords="174,345,181,345,179,325,192,324,192,317,249,319,249,436,173,437" href="#">
+          <area shape="poly" coords="220,291,299,292,301,319,220,319" href="#" alt="">
+          <area shape="poly" coords="205,247,206,265,226,265,226,276,254,277,254,247" href="#">
         </map>
       </div>
     </div>
@@ -114,18 +114,14 @@
   <script src="./vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
-  <script src="./js/imageMapResizer.min.js"></script>
+
   <script type="text/javascript">
         $(function() {
             $('.map').maphilight();
           });
         </script>
 
-        <script type="text/javascript">
-        $(document).ready(function() {
-  $('map').imageMapResize();
-});
-</script>
+
 </body>
 
 </html>
