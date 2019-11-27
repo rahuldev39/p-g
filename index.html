@@ -47,19 +47,22 @@
   <!-- Page Content -->
   <div class="container map-container">
     <div class="row">
-      <div class="col-lg-12 text-center p-5 mb-4">
+      <div class="col-lg-12 text-center py-5 px-0 mb-4">
         <div class="mb-2">
           <small class="text-white">Click on the area on image to view details</small>
         </div>
-
-        <img src="./images/key_plan.png" alt="" usemap="#Map" class="img-fluid m-auto d-block map">
+        <img src="./images/key_plan.png" alt="" usemap="#Map" class="img-fluid m-auto d-block map" width="1880">
         <map name="Map">
-          <area shape="poly" coords="108,14,195,45,181,142,87,127" alt="60" data-toggle="modal" data-target="#map-area">
-          <area shape="poly" coords="276,108,276,135,235,135,235,156,222,157,222,214,298,214,300,175,339,173,338,109" href="#" alt="01">
-          <area shape="poly" coords="174,345,181,345,179,325,192,324,192,317,249,319,249,436,173,437" href="#" alt="16">
-          <area shape="poly" coords="220,291,299,292,301,319,220,319" href="#" alt="13">
-          <area shape="poly" coords="205,247,206,265,226,265,226,276,254,277,254,247" href="#" alt="10">
+          <area shape="poly" coords="280,11,522,98,478,361,225,320"  alt="60" data-toggle="modal" data-target="#map-area">
+          <area shape="poly" coords="740,270,906,269,904,446,800,445,797,554,591,554,592,399,626,398,628,341,737,339" href="#" alt="01">
+          <area shape="poly" coords="461,1157,664,1158,665,838,506,836,508,852,477,852,477,908,460,908" href="#" alt="16">
+          <area shape="poly" coords="548,647,679,647,678,728,600,727,600,695,548,693" href="#" alt="10">
+          <area shape="poly" coords="456,1169,521,1170,520,1330,456,1332" href="#" alt="18">
+          <area shape="poly" coords="585,135,637,134,637,186,584,185" href="#" alt="61">
+          <area shape="poly" coords="584,767,800,766,801,839,584,835" href="#" alt="13">
         </map>
+
+
       </div>
     </div>
   </div>
@@ -93,58 +96,200 @@
                     </div>
                   </div>
                   <div class="col-lg-6 d-flex flex-column justify-content-center p-4 pl-5">
+                    <div class="inspection-detail">
+                      <h4 class="mb-4">Drain/Gutter Layout - 7</h4>
+                      <div class="table-responsive mb-3 ">
+                        <table class="table table-bordered bg-white">
+                          <tbody>
+                            <tr>
+                              <td class="bg-light">
+                                <h6>Last Inspection Date</h6>
+                              </td>
+                              <td>
+                                <span>12 May 2019</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="bg-light">
+                                <h6>Next Due Inspection Date</h6>
+                              </td>
+                              <td>
+                                <span>15 Dec 2019</span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
 
-                    <h4 class="mb-4">Drain/Gutter Layout - 7</h4>
-                    <div class="table-responsive mb-3 ">
-                      <table class="table table-bordered bg-white">
-                        <tbody>
-                          <tr>
-                            <td class="bg-light">
-                              <h6>Last Inspection Date</h6>
-                            </td>
-                            <td>
-                              <span>12 May 2019</span>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="bg-light">
-                              <h6>Next Due Inspection Date</h6>
-                            </td>
-                            <td>
-                              <span>15 Dec 2019</span>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <button type="button" class="btn btn-dark btn-block">
+                            Edit Previously Inspection
+                          </button>
+                        </div>
+                        <div class="col-md-6">
+                          <button type="button" class="btn btn-primary btn-block add-inspection-btn">
+                            Add Next Inspection
+                          </button>
+                        </div>
+                      </div>
+
+                      <hr>
+
+                      <small class="text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat=.
+                      </small>
                     </div>
 
-                    <div class="row">
-                      <div class="col-md-6">
-                        <button type="button" class="btn btn-dark btn-block">
-                          Edit Previously Inspection
-                        </button>
+                    <div class="add-inspection d-none">
+                      <h4 class="mb-4">Checklist Form</h4>
+                      <div class="table-responsive mb-3 ">
+                        <table class="table table-bordered bg-white">
+                          <tbody>
+                            <tr>
+                              <td class="bg-light">
+                                <h6>A</h6>
+                              </td>
+                              <td>
+                                <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="radio" name="a"  value="o" checked>
+                                    Yes
+                                </label>
+                              </div>
+                              </td>
+                              <td>
+                                <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="radio" name="a"  value="o">
+                                    No
+                                </label>
+                              </div>
+                              </td>
+                              <td>
+                                <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="radio" name="a"  value="o">
+                                    NA
+                                </label>
+                              </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="bg-light">
+                                <h6>B</h6>
+                              </td>
+                              <td>
+                                <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="radio" name="b"  value="o" checked>
+                                    Yes
+                                </label>
+                              </div>
+                              </td>
+                              <td>
+                                <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="radio" name="b"  value="o">
+                                    No
+                                </label>
+                              </div>
+                              </td>
+                              <td>
+                                <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="radio" name="b"  value="o">
+                                    NA
+                                </label>
+                              </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="bg-light">
+                                <h6>C</h6>
+                              </td>
+                              <td>
+                                <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="radio" name="c"  value="o" checked>
+                                    Yes
+                                </label>
+                              </div>
+                              </td>
+                              <td>
+                                <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="radio" name="c"  value="o">
+                                    No
+                                </label>
+                              </div>
+                              </td>
+                              <td>
+                                <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="radio" name="c"  value="o">
+                                    NA
+                                </label>
+                              </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="bg-light">
+                                <h6>D</h6>
+                              </td>
+                              <td>
+                                <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="radio" name="d"  value="o" checked>
+                                    Yes
+                                </label>
+                              </div>
+                              </td>
+                              <td>
+                                <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="radio" name="d"  value="o">
+                                    No
+                                </label>
+                              </div>
+                              </td>
+                              <td>
+                                <div class="form-check">
+                                <label class="form-check-label">
+                                  <input class="form-check-input" type="radio" name="d"  value="o">
+                                    NA
+                                </label>
+                              </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
-                      <div class="col-md-6">
-                        <button type="button" class="btn btn-primary btn-block">
-                          Add Next Inspection
-                        </button>
+
+                      <div class="row">
+                        <div class="col-md-6">
+                          <button type="button" class="btn btn-dark btn-block close-add-inspection">
+                            Cancel
+                          </button>
+                        </div>
+                        <div class="col-md-6">
+                          <button type="button" class="btn btn-primary btn-block">
+                            Submit
+                          </button>
+                        </div>
                       </div>
+
+
                     </div>
 
-                    <hr>
-
-                    <small class="text-center">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat=.
-                    </small>
                   </div>
                 </div>
               </div>
-
-
-
             </div>
           </div>
         </div>
+
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="./vendor/jquery/jquery.min.js"></script>
@@ -161,6 +306,18 @@
         $(document).ready(function() {
   $('map').imageMapResize();
 });
+</script>
+
+<script type="text/javascript">
+    $('.add-inspection-btn').on('click', function() {
+      $('.inspection-detail').addClass('d-none');
+      $('.add-inspection').removeClass('d-none');
+    });
+    $('.close-add-inspection').on('click', function() {
+      $('.inspection-detail').removeClass('d-none');
+      $('.add-inspection').addClass('d-none');
+    });
+
 </script>
 </body>
 
