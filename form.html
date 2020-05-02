@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Procter & Gamble</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body class="graph-bg">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark  static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./images/P&G_logo.png" alt="" width="80">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-sm-right" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-user mr-1" aria-hidden="true"></i>  Welcome John Wick
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Profile</a>
+            <a class="dropdown-item" href="#">Setting</a>
+            <a class="dropdown-item" href="#">Logout</a>
+          </div>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container map-container">
+    <div class="row">
+      <div class="col-lg-12 py-5 px-0 mb-4">
+
+        <div class="card border-0 shadow-sm">
+          <div class="card-body p-4">
+            <h2 class="font-weight-bold text-center pb-3 pt-2">Baddi Plant <small class=""> Chemical Clearance Request Form</small></h2>
+
+            <hr class="mb-4">
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="form-group">
+                   <label>Requested By</label>
+                   <input type="text" class="form-control" placeholder="Requested By">
+                 </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                   <label>Form Submitted Date</label>
+                   <input type="text" class="form-control" placeholder="Submitted date">
+                 </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Material usage data </label>
+                  <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="customFile">
+                    <label class="custom-file-label" for="customFile">Choose file</label>
+                  </div>
+                  <small class="text-muted">(Attach copies of the Material Safety Data Sheet - MSDS</small>
+                </div>
+              </div>
+              <div class="col-md-2 ">
+                <div class="form-group ">
+                  <label class="d-block invisible">add new</label>
+                  <button type="button" class="btn btn-primary h-auto align-self-end">Add New</button>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-md-5">
+                <div class="form-group">
+                   <label>Chemical Name / Composition </label>
+                   <input type="text" class="form-control" placeholder="Requested By">
+                 </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-group">
+                   <label>GCAS No</label>
+                   <input type="text" class="form-control" placeholder="Submitted date">
+                 </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                   <label>Physical State of Material</label>
+                   <input type="text" class="form-control" placeholder="Submitted date">
+                 </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label>Process where used and addition point: </label>
+                  <textarea class="form-control" name="name" rows="3" cols="80"></textarea>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label>Function of the Chemical: </label>
+                  <textarea class="form-control" name="name" rows="3" cols="80"></textarea>
+                </div>
+              </div>
+            </div>
+
+          <div class="form-section-header my-4 position-relative text-center">
+            <span>Quantity</span>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                 <label>Primary Container Type</label>
+                 <input type="text" class="form-control" placeholder="Primary Container Type">
+               </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                 <label>Container Size</label>
+                 <input type="text" class="form-control" placeholder="Container Size">
+               </div>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label class="mr-4">Is there any secondary handling / transfer to another container </label>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="radio1"  name="yn1" class="custom-control-input">
+                  <label class="custom-control-label" for="radio1">yes</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" name="yn1" id="radio2" class="custom-control-input">
+                  <label class="custom-control-label" for="radio2">No</label>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label>If Yes specify </label>
+                <textarea class="form-control" name="name" rows="3" cols="80"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3">
+              <div class="form-group">
+                 <label>Qty to be ordered(Min)</label>
+                 <input type="text" class="form-control" placeholder="Min qty ordered">
+               </div>
+            </div>
+            <div class="col-md-3">
+              <div class="form-group">
+                 <label>Qty to be ordered(Max)</label>
+                 <input type="text" class="form-control" placeholder="Max qty ordered">
+               </div>
+            </div>
+            <div class="col-md-3">
+              <div class="form-group">
+                 <label>Usage Rate: Min/Month</label>
+                 <input type="text" class="form-control" placeholder="Usage Rate: Min/Month">
+               </div>
+            </div>
+            <div class="col-md-3">
+              <div class="form-group">
+                 <label>Usage Rate: Max/Month</label>
+                 <input type="text" class="form-control" placeholder="Usage Rate: Min/Month">
+               </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label>Storage Location </label>
+                <textarea class="form-control" name="name" rows="3" cols="80"></textarea>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="form-section-header my-4 position-relative text-center">
+            <span>Type of Approval</span>
+          </div>
+
+          <div class="row my-5">
+            <div class="col-md-12 text-center">
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="approval1" name="approval" class="custom-control-input" checked>
+                <label class="custom-control-label" for="approval1">Permanent</label>
+              </div>
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="approval2" name="approval" class="custom-control-input">
+                <label class="custom-control-label" for="approval2">Temporary</label>
+              </div>
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="approval3" name="approval" class="custom-control-input">
+                <label class="custom-control-label" for="approval3">Experimental</label>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="form-section-header my-4 position-relative text-center">
+            <span>Application</span>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label class="mr-4">Potential exposures to</label>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input " id="pe1">
+                  <label class="custom-control-label" for="pe1">Employee</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="pe2">
+                  <label class="custom-control-label" for="pe2">Apprenticeship</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="pe3">
+                  <label class="custom-control-label" for="pe3">Contractors</label>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="mr-4">Will this material be part of the final product? </label>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="radio3"  name="yn2" class="custom-control-input">
+                  <label class="custom-control-label" for="radio3">yes</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" name="yn2" id="radio4" class="custom-control-input">
+                  <label class="custom-control-label" for="radio4">No</label>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="mr-4">If yes, has an E.O. or test plan been written?</label>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="radio5"  name="yn3" class="custom-control-input">
+                  <label class="custom-control-label" for="radio5">yes</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" name="yn3" id="radio6" class="custom-control-input">
+                  <label class="custom-control-label" for="radio6">No</label>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="form-group">
+                <label class="mr-4">Will this material be used on / in any product manufacturing equipment? </label>
+                <small class="text-muted d-block mb-2">(I.e. Lubricants, gaskets, Cleaners, etc)</small>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="radio7"  name="yn4" class="custom-control-input">
+                  <label class="custom-control-label" for="radio7">yes</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" name="yn4" id="radio8" class="custom-control-input">
+                  <label class="custom-control-label" for="radio8">No</label>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label>If yes, can it contaminate the product and how?       </label>
+                <textarea class="form-control" name="name" rows="2" cols="80"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="form-group">
+                <label class="mr-4">Is this material classified as Hazardous(HFR rating)?</label>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="radio9"  name="yn5" class="custom-control-input">
+                  <label class="custom-control-label" for="radio9">yes</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline mr-5">
+                  <input type="radio" name="yn5" id="radio10" class="custom-control-input">
+                  <label class="custom-control-label" for="radio10">No</label>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-lg-6">
+              <div class="form-group">
+
+                <div class="row">
+                  <div class="col-md-4">
+                    <label class="mr-4">H</label>
+                    <select class="form-control">
+                      <option>0</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                  </div>
+                  <div class="col-md-4">
+                    <label class="mr-4">F</label>
+                    <select class="form-control">
+                      <option>0</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                  </div>
+                  <div class="col-md-4">
+                    <label class="mr-4">R</label>
+                    <select class="form-control">
+                      <option>0</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <hr>
+
+
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="form-group">
+                <label class="mr-4">Is this material replacing any other existing Material?</label>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="radio11"  name="yn6" class="custom-control-input">
+                  <label class="custom-control-label" for="radio11">yes</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline mr-5">
+                  <input type="radio" name="yn6" id="radio12" class="custom-control-input">
+                  <label class="custom-control-label" for="radio12">No</label>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label>If Yes, which chemical is getting replaced? Provide details</label>
+                <textarea class="form-control" name="name" rows="2" cols="80"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                 <label>New Chemical to be used in Project / Initiative </label>
+                 <input type="text" class="form-control">
+               </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                 <label>Project / Initiative SOP</label>
+                 <input type="text" class="form-control">
+               </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                 <label>Date by which New Chemical is expected at Site</label>
+                 <input type="text" class="form-control">
+               </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="card-footer p-4 text-center">
+            <button type="button" class="btn btn-primary">Approve Application</button>
+            <button type="button" class="btn btn-dark">Reset Application</button>
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer bg-primary text-white p-2 text-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class=" col-md-12 col-lg-12">
+                        <small class="footer-small">2019 © &nbsp; Procter &amp; Gamble</small>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="./vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
+  <script src="./js/imageMapResizer.min.js"></script>
+  <script type="text/javascript">
+        $(function() {
+            $('.map').maphilight();
+          });
+        </script>
+
+        <script type="text/javascript">
+        $(document).ready(function() {
+  $('map').imageMapResize();
+});
+</script>
+
+<script type="text/javascript">
+    $('.add-inspection-btn').on('click', function() {
+      $('.inspection-detail').addClass('d-none');
+      $('.add-inspection').removeClass('d-none');
+    });
+    $('.close-add-inspection').on('click', function() {
+      $('.inspection-detail').removeClass('d-none');
+      $('.add-inspection').addClass('d-none');
+    });
+
+</script>
+</body>
+
+</html>
